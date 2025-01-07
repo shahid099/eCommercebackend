@@ -1,0 +1,18 @@
+### SIGNUP USER
+POST http://localhost:8080/api/signup
+Content-Type: application/json
+
+{
+    "name": "test2",
+    "email": "test2@gmail.com",
+    "password": "test2"
+}
+
+### SIGNIN USER 
+POST http://localhost:8080/api/signin
+Content-Type: application/json
+
+{
+  "email": "test2@gmail.com",
+  "password": "test2"   
+}
