@@ -10,7 +10,7 @@ const  userDetailsController = async (req, res) => {
             success: true, 
             message: "User Details"
         })
-        console.log("User", user);
+        // console.log("User", user);
     } catch (error) {
         res.status(400).json({
             message: error.message || error,

@@ -2,7 +2,6 @@ import bcrypt from "bcryptjs"
 import jwt from 'jsonwebtoken';
 import userModel from "../models/userModel.js"
 
-
 const userSignInController = async (req, res)=> {
     try {
         const { email, password } = req.body
